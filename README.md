@@ -11,10 +11,7 @@ This GitBook is designed as a centralized personal knowledge hub. It consolidate
 - Hack The Box (HTB)
 - TryHackMe (THM)
 - Offensive Security (OffSec)
-- TCM Security
 - PortSwigger
-- APISEC
-- Open University (OU)
 
 It contains:
 - Detailed walkthroughs of challenges and labs
