@@ -25,8 +25,8 @@ The goal is to document and organize everything I’ve learned through courses, 
 - Theory Snippets — Concise notes on key pentesting concepts and commands
 - Tool Usage — Practical guides and usage tips for common offensive security tools
 
-## ☕ Support
-If you find this knowledge base useful, consider supporting me by [buying a coffee](https://buymeacoffee.com/spaniascha3)! Every bit helps fuel continued updates and research. 🙏
+## ☕ Connect
+[Nguyen Nguyen | LinkedIn](https://www.linkedin.com/in/nguyen-nguyen-b8b596195/)
 
 <a href="https://www.gitbook.com/preview?utm_source=gitbook_readme_badge&utm_medium=organic&utm_campaign=preview_documentation&utm_content=link">
     <img
