@@ -1,0 +1,1161 @@
+.
+├── Pentest Journeys
+│   ├── README.md
+│   ├── SUMMARY.md
+│   ├── blue-team-stuff
+│   │   └── logs
+│   │       ├── README.md
+│   │       ├── apache2.md
+│   │       ├── system-logs.md
+│   │       └── volatile-data.md
+│   ├── boxes
+│   │   ├── categories.md
+│   │   ├── easy
+│   │   │   ├── README.md
+│   │   │   ├── active.md
+│   │   │   ├── broker.md
+│   │   │   ├── cozyhosting.md
+│   │   │   ├── devvortex.md
+│   │   │   ├── escapetwo.md
+│   │   │   ├── fluffy.md
+│   │   │   ├── forest.md
+│   │   │   ├── funboxeasyenum.md
+│   │   │   ├── inclusiveness.md
+│   │   │   ├── keeper.md
+│   │   │   ├── lame.md
+│   │   │   ├── nibbles.md
+│   │   │   ├── nodeblog.md
+│   │   │   ├── potato.md
+│   │   │   ├── return.md
+│   │   │   ├── sauna.md
+│   │   │   ├── sumo.md
+│   │   │   ├── support.md
+│   │   │   └── timelapse.md
+│   │   ├── hard
+│   │   │   ├── README.md
+│   │   │   ├── blackfield.md
+│   │   │   ├── mantis.md
+│   │   │   └── reel.md
+│   │   ├── insane
+│   │   │   ├── README.md
+│   │   │   ├── multimaster.md
+│   │   │   ├── rebound.md
+│   │   │   └── sizzle.md
+│   │   ├── medium
+│   │   │   ├── README.md
+│   │   │   ├── cascade.md
+│   │   │   ├── intelligence.md
+│   │   │   ├── loly.md
+│   │   │   ├── monteverde.md
+│   │   │   ├── resolute.md
+│   │   │   └── streamio.md
+│   │   └── starting-point
+│   │       ├── README.md
+│   │       ├── three.md
+│   │       └── unified.md
+│   ├── cloud
+│   │   ├── README.md
+│   │   └── public-snapshots.md
+│   ├── docs
+│   │   ├── README.md
+│   │   └── SUMMARY.md
+│   ├── experience-and-skills.md
+│   ├── exploits
+│   │   └── wildcard-injection.md
+│   ├── knowledge-base-boxes
+│   │   ├── categories.md
+│   │   ├── cloud
+│   │   │   ├── README.md
+│   │   │   └── public-snapshots.md
+│   │   ├── easy
+│   │   │   ├── README.md
+│   │   │   ├── active.md
+│   │   │   ├── broker.md
+│   │   │   ├── cozyhosting.md
+│   │   │   ├── devvortex.md
+│   │   │   ├── escapetwo.md
+│   │   │   ├── fluffy.md
+│   │   │   ├── forest.md
+│   │   │   ├── funboxeasyenum.md
+│   │   │   ├── inclusiveness.md
+│   │   │   ├── keeper.md
+│   │   │   ├── lame.md
+│   │   │   ├── nibbles.md
+│   │   │   ├── potato.md
+│   │   │   ├── return.md
+│   │   │   ├── sauna.md
+│   │   │   ├── sumo.md
+│   │   │   ├── support.md
+│   │   │   └── timelapse.md
+│   │   ├── hard
+│   │   │   ├── README.md
+│   │   │   ├── blackfield.md
+│   │   │   ├── mantis.md
+│   │   │   └── reel.md
+│   │   ├── insane
+│   │   │   ├── README.md
+│   │   │   ├── multimaster.md
+│   │   │   ├── rebound.md
+│   │   │   └── sizzle.md
+│   │   ├── medium
+│   │   │   ├── README.md
+│   │   │   ├── cascade.md
+│   │   │   ├── intelligence.md
+│   │   │   ├── loly.md
+│   │   │   ├── monteverde.md
+│   │   │   ├── resolute.md
+│   │   │   └── streamio.md
+│   │   └── starting-point
+│   │       ├── README.md
+│   │       ├── three.md
+│   │       └── unified.md
+│   ├── knowledge-base-tl-dr
+│   │   ├── active-directory
+│   │   │   ├── README.md
+│   │   │   ├── ad-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── bloodhound.md
+│   │   │   │   ├── bloodyad.md
+│   │   │   │   ├── impacket.md
+│   │   │   │   ├── kerbrute.md
+│   │   │   │   ├── ldapsearch.md
+│   │   │   │   ├── mimikatz.md
+│   │   │   │   ├── netexec.md
+│   │   │   │   ├── powerview.md
+│   │   │   │   ├── responder.md
+│   │   │   │   ├── rsat.md
+│   │   │   │   ├── rubeus.md
+│   │   │   │   ├── runas.md
+│   │   │   │   └── sysinternals.md
+│   │   │   ├── attacks
+│   │   │   │   ├── README.md
+│   │   │   │   ├── adcs
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── certifried.md
+│   │   │   │   │   ├── esc-vectors.md
+│   │   │   │   │   ├── pass-the-cert.md
+│   │   │   │   │   └── shadow-credentials.md
+│   │   │   │   ├── as-reproasting.md
+│   │   │   │   ├── badsuccessor.md
+│   │   │   │   ├── cross-domain.md
+│   │   │   │   ├── cross-forest.md
+│   │   │   │   ├── dcsync.md
+│   │   │   │   ├── delegations
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── constrained.md
+│   │   │   │   │   ├── rbcd.md
+│   │   │   │   │   ├── u2u.md
+│   │   │   │   │   └── unconstrained.md
+│   │   │   │   ├── exchange.md
+│   │   │   │   ├── forests.md
+│   │   │   │   ├── gpo-abuse.md
+│   │   │   │   ├── kerberoasting.md
+│   │   │   │   ├── local-sam-dump.md
+│   │   │   │   ├── logon-scripts.md
+│   │   │   │   ├── nopac.md
+│   │   │   │   ├── ntlm-relay.md
+│   │   │   │   ├── password-spraying.md
+│   │   │   │   ├── pre-created-machines.md
+│   │   │   │   ├── sccm.md
+│   │   │   │   ├── spn-jacking.md
+│   │   │   │   ├── timeroasting.md
+│   │   │   │   └── user-enumeration.md
+│   │   │   ├── general
+│   │   │   │   ├── README.md
+│   │   │   │   ├── access-controls.md
+│   │   │   │   ├── ad-101.md
+│   │   │   │   ├── authentication
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── ad-cs.md
+│   │   │   │   │   ├── kerberos.md
+│   │   │   │   │   └── ntlm.md
+│   │   │   │   └── gpos.md
+│   │   │   ├── groups
+│   │   │   │   ├── README.md
+│   │   │   │   ├── account-operators.md
+│   │   │   │   ├── backup-operators.md
+│   │   │   │   ├── cert-publishers.md
+│   │   │   │   ├── dnsadmins.md
+│   │   │   │   ├── exchange-windows-permissions.md
+│   │   │   │   ├── restore-users.md
+│   │   │   │   └── server-operators.md
+│   │   │   ├── lateral-movement
+│   │   │   │   ├── README.md
+│   │   │   │   ├── dcom.md
+│   │   │   │   ├── overpass-the-hash.md
+│   │   │   │   ├── pass-the-hash.md
+│   │   │   │   ├── pass-the-ticket.md
+│   │   │   │   └── wsus.md
+│   │   │   ├── permissions
+│   │   │   │   ├── README.md
+│   │   │   │   ├── addself.md
+│   │   │   │   ├── allextendedrights.md
+│   │   │   │   ├── dcsync.md
+│   │   │   │   ├── forcechangepassword.md
+│   │   │   │   ├── fullcontrol.md
+│   │   │   │   ├── genericall.md
+│   │   │   │   ├── genericwrite.md
+│   │   │   │   ├── owns.md
+│   │   │   │   ├── readgmsapassword.md
+│   │   │   │   ├── readlapspassword.md
+│   │   │   │   ├── writedacl.md
+│   │   │   │   ├── writeowner.md
+│   │   │   │   └── writespn.md
+│   │   │   ├── persistence
+│   │   │   │   ├── README.md
+│   │   │   │   ├── acls.md
+│   │   │   │   ├── diamond-ticket.md
+│   │   │   │   ├── dsrm.md
+│   │   │   │   ├── golden-ticket.md
+│   │   │   │   ├── security-descriptors.md
+│   │   │   │   ├── shadow-copies.md
+│   │   │   │   ├── silver-ticket.md
+│   │   │   │   ├── skeleton-key.md
+│   │   │   │   └── ssp-injection.md
+│   │   │   └── privileges
+│   │   │       ├── README.md
+│   │   │       ├── general-notes.md
+│   │   │       ├── sebackup.md
+│   │   │       ├── seenabledelegation.md
+│   │   │       ├── seimpersonate.md
+│   │   │       ├── semanagevolume.md
+│   │   │       └── seservicelogon.md
+│   │   ├── cloud
+│   │   │   ├── README.md
+│   │   │   ├── aws
+│   │   │   │   ├── README.md
+│   │   │   │   └── recon.md
+│   │   │   ├── cloud-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── aws.md
+│   │   │   │   └── pacu.md
+│   │   │   └── general.md
+│   │   ├── external-platforms
+│   │   │   ├── README.md
+│   │   │   └── slack.md
+│   │   ├── infra
+│   │   │   ├── README.md
+│   │   │   ├── apps-x-platform
+│   │   │   │   ├── README.md
+│   │   │   │   ├── ansible.md
+│   │   │   │   └── glassfish.md
+│   │   │   ├── file-artifacts
+│   │   │   │   ├── README.md
+│   │   │   │   └── mozilla.md
+│   │   │   ├── infra-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── pe-scripts.md
+│   │   │   │   ├── powerup.md
+│   │   │   │   └── pspy.md
+│   │   │   ├── os
+│   │   │   │   ├── README.md
+│   │   │   │   ├── freebsd.md
+│   │   │   │   ├── linux
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── host-recon.md
+│   │   │   │   │   ├── privilege-escalation
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── apps
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   └── zabbix.md
+│   │   │   │   │   │   ├── binaries
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── clamav.md
+│   │   │   │   │   │   │   ├── composer.md
+│   │   │   │   │   │   │   ├── docker.md
+│   │   │   │   │   │   │   ├── dosbox.md
+│   │   │   │   │   │   │   ├── ed.md
+│   │   │   │   │   │   │   ├── gcore.md
+│   │   │   │   │   │   │   ├── hping3.md
+│   │   │   │   │   │   │   ├── make.md
+│   │   │   │   │   │   │   ├── runc.md
+│   │   │   │   │   │   │   ├── screen.md
+│   │   │   │   │   │   │   ├── sudo.md
+│   │   │   │   │   │   │   └── systemctl.md
+│   │   │   │   │   │   ├── cronjobs
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── git-script-injection.md
+│   │   │   │   │   │   │   ├── path-abuse.md
+│   │   │   │   │   │   │   └── so-injection.md
+│   │   │   │   │   │   ├── groups.md
+│   │   │   │   │   │   ├── kernel.md
+│   │   │   │   │   │   ├── suid-so-injection.md
+│   │   │   │   │   │   └── wildcard-injection.md
+│   │   │   │   │   └── services
+│   │   │   │   │       ├── README.md
+│   │   │   │   │       ├── rpc.py.md
+│   │   │   │   │       └── service-hijacking.md
+│   │   │   │   └── windows
+│   │   │   │       ├── README.md
+│   │   │   │       ├── commands.md
+│   │   │   │       ├── host-recon.md
+│   │   │   │       └── privilege-escalation
+│   │   │   │           ├── README.md
+│   │   │   │           ├── apps
+│   │   │   │           │   ├── README.md
+│   │   │   │           │   ├── alwaysinstalledelevated.md
+│   │   │   │           │   ├── argus-surveillance-dvr.md
+│   │   │   │           │   ├── druva.md
+│   │   │   │           │   ├── hp-power-manager.md
+│   │   │   │           │   ├── paperstream-ip.md
+│   │   │   │           │   └── smartermail.md
+│   │   │   │           ├── hijacks.md
+│   │   │   │           ├── kernel.md
+│   │   │   │           ├── local-network-service.md
+│   │   │   │           └── services.md
+│   │   │   └── proxies
+│   │   │       ├── README.md
+│   │   │       └── squid.md
+│   │   ├── logs
+│   │   │   ├── README.md
+│   │   │   ├── apache2.md
+│   │   │   ├── system-logs.md
+│   │   │   └── volatile-data.md
+│   │   ├── networking
+│   │   │   ├── README.md
+│   │   │   └── ip-addressing.md
+│   │   ├── pivoting
+│   │   │   ├── README.md
+│   │   │   ├── deep-packet-inspection
+│   │   │   │   ├── README.md
+│   │   │   │   ├── dns-tunneling.md
+│   │   │   │   └── http-tunneling.md
+│   │   │   ├── networking-101.md
+│   │   │   ├── pivoting-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── ligolo-ng.md
+│   │   │   │   └── sshuttle.md
+│   │   │   ├── port-foward.md
+│   │   │   └── ssh-tunelling.md
+│   │   ├── red-teaming
+│   │   │   ├── README.md
+│   │   │   ├── c2s
+│   │   │   │   ├── README.md
+│   │   │   │   ├── c2-tools
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── adcollector.md
+│   │   │   │   │   ├── adsearch.md
+│   │   │   │   │   ├── cimplant.md
+│   │   │   │   │   ├── dsquery.md
+│   │   │   │   │   ├── lacheck.md
+│   │   │   │   │   ├── pezor.md
+│   │   │   │   │   ├── scshell.md
+│   │   │   │   │   ├── seatbelt.md
+│   │   │   │   │   ├── sharpkatz.md
+│   │   │   │   │   ├── sharpup.md
+│   │   │   │   │   ├── standin.md
+│   │   │   │   │   └── stracciatella.md
+│   │   │   │   └── sliver.md
+│   │   │   ├── edrs
+│   │   │   │   ├── README.md
+│   │   │   │   └── mde.md
+│   │   │   ├── opsec.md
+│   │   │   ├── powershell.md
+│   │   │   └── psremoting.md
+│   │   ├── social-engineering
+│   │   │   ├── README.md
+│   │   │   └── phising.md
+│   │   └── web
+│   │       ├── README.md
+│   │       ├── api
+│   │       │   ├── README.md
+│   │       │   ├── collection-creation.md
+│   │       │   ├── enumeration.md
+│   │       │   ├── tests
+│   │       │   │   ├── README.md
+│   │       │   │   ├── authentication
+│   │       │   │   │   ├── README.md
+│   │       │   │   │   ├── bfas.md
+│   │       │   │   │   ├── jwts
+│   │       │   │   │   │   ├── README.md
+│   │       │   │   │   │   ├── algorithm-confusion.md
+│   │       │   │   │   │   ├── entropy-analysis.md
+│   │       │   │   │   │   ├── header-injection.md
+│   │       │   │   │   │   ├── signature-validation.md
+│   │       │   │   │   │   └── weak-signature.md
+│   │       │   │   │   └── tokens.md
+│   │       │   │   ├── authorization
+│   │       │   │   │   ├── README.md
+│   │       │   │   │   ├── bfla.md
+│   │       │   │   │   └── bola.md
+│   │       │   │   ├── content-type-tampering.md
+│   │       │   │   ├── excessive-data-exposure.md
+│   │       │   │   ├── general.md
+│   │       │   │   ├── http-verb-tampering.md
+│   │       │   │   ├── improper-asset-management.md
+│   │       │   │   ├── mass-assignment.md
+│   │       │   │   ├── security-headers.md
+│   │       │   │   ├── security-misconfigurations.md
+│   │       │   │   ├── ssrf.md
+│   │       │   │   ├── unrestriced-resource-consumption.md
+│   │       │   │   ├── unrestricted-access-to-sensitive-business-flows.md
+│   │       │   │   └── unsafe-api-consumption.md
+│   │       │   ├── tools
+│   │       │   │   ├── README.md
+│   │       │   │   ├── arjun.md
+│   │       │   │   ├── jwt_tool.md
+│   │       │   │   ├── kiterunner.md
+│   │       │   │   └── mitmweb.md
+│   │       │   ├── useful-terms.md
+│   │       │   └── what-is-an-api.md
+│   │       ├── applications
+│   │       │   ├── README.md
+│   │       │   ├── atlassian-confluence.md
+│   │       │   ├── boxbilling.md
+│   │       │   ├── cassandra-web.md
+│   │       │   ├── gerapy.md
+│   │       │   ├── grafana.md
+│   │       │   ├── limesurvey.md
+│   │       │   ├── mantis-bt.md
+│   │       │   ├── omrs.md
+│   │       │   ├── online-discussion-forum.md
+│   │       │   ├── openemr.md
+│   │       │   ├── prison-management-system.md
+│   │       │   ├── raspap.md
+│   │       │   ├── rconfig.md
+│   │       │   ├── responsive-filemanager.md
+│   │       │   ├── simplephpgal.md
+│   │       │   ├── so-planning.md
+│   │       │   ├── sonatype-nexus.md
+│   │       │   ├── synaman.md
+│   │       │   ├── teamcity.md
+│   │       │   ├── tiny-file-manager.md
+│   │       │   ├── vesta-control-panel.md
+│   │       │   └── zoneminder.md
+│   │       ├── authentication
+│   │       │   ├── README.md
+│   │       │   ├── broken-reset-logic.md
+│   │       │   ├── brute-force-attacks.md
+│   │       │   ├── jwts.md
+│   │       │   ├── mfa.md
+│   │       │   ├── php-strcmp.md
+│   │       │   ├── rate-limiting.md
+│   │       │   └── session-tokens.md
+│   │       ├── authorization
+│   │       │   ├── README.md
+│   │       │   ├── automated-a-b-testing.md
+│   │       │   ├── idor-bfla.md
+│   │       │   ├── idor-bola.md
+│   │       │   └── weak-access-controls.md
+│   │       ├── cms
+│   │       │   ├── README.md
+│   │       │   ├── barracudadrive-fuguhub.md
+│   │       │   ├── cs-cart.md
+│   │       │   ├── cutenews.md
+│   │       │   ├── dnn.md
+│   │       │   ├── extplorer.md
+│   │       │   ├── grav.md
+│   │       │   ├── joomla.md
+│   │       │   ├── monstra.md
+│   │       │   ├── responsive-online-blog.md
+│   │       │   ├── ritecms.md
+│   │       │   ├── subrion.md
+│   │       │   ├── umbraco.md
+│   │       │   └── wordpress.md
+│   │       ├── common-findings
+│   │       │   ├── README.md
+│   │       │   ├── cookie-flags.md
+│   │       │   ├── security-headers
+│   │       │   │   ├── README.md
+│   │       │   │   └── content-security-policy.md
+│   │       │   └── ssl-tls.md
+│   │       ├── cross-origin
+│   │       │   ├── README.md
+│   │       │   ├── cors.md
+│   │       │   ├── cross-origin-101.md
+│   │       │   └── csrf.md
+│   │       ├── devops
+│   │       │   ├── README.md
+│   │       │   ├── apm-tools
+│   │       │   │   ├── README.md
+│   │       │   │   └── php-spx.md
+│   │       │   ├── git-tools.md
+│   │       │   ├── gitea.md
+│   │       │   ├── gitlab.md
+│   │       │   └── jenkins.md
+│   │       ├── dirbusting.md
+│   │       ├── file-inclusion
+│   │       │   ├── README.md
+│   │       │   ├── lfi-and-rfi.md
+│   │       │   └── rce.md
+│   │       ├── file-uploads
+│   │       │   ├── README.md
+│   │       │   ├── attacks.md
+│   │       │   ├── file-types
+│   │       │   │   ├── README.md
+│   │       │   │   ├── gif.md
+│   │       │   │   ├── libreoffice.md
+│   │       │   │   ├── pdf.md
+│   │       │   │   ├── phar.md
+│   │       │   │   ├── svg.md
+│   │       │   │   └── zip.md
+│   │       │   └── filters.md
+│   │       ├── frameworks
+│   │       │   ├── README.md
+│   │       │   ├── laravel.md
+│   │       │   ├── spring.md
+│   │       │   └── vaadin.md
+│   │       ├── injections
+│   │       │   ├── README.md
+│   │       │   ├── ci
+│   │       │   │   ├── README.md
+│   │       │   │   ├── ci.md
+│   │       │   │   ├── examples.md
+│   │       │   │   ├── filters.md
+│   │       │   │   └── happy-dom.md
+│   │       │   ├── sqli
+│   │       │   │   ├── README.md
+│   │       │   │   ├── blind.md
+│   │       │   │   ├── in-band.md
+│   │       │   │   ├── nosqli.md
+│   │       │   │   ├── other.md
+│   │       │   │   ├── second-order.md
+│   │       │   │   ├── sqli-101.md
+│   │       │   │   └── sqlmap.md
+│   │       │   ├── ssti
+│   │       │   │   ├── README.md
+│   │       │   │   ├── case-study-craft-cms.md
+│   │       │   │   ├── freemarker.md
+│   │       │   │   ├── handlebars.md
+│   │       │   │   ├── jinja.md
+│   │       │   │   ├── mako.md
+│   │       │   │   ├── mustache.md
+│   │       │   │   ├── pug.md
+│   │       │   │   ├── ssti-101.md
+│   │       │   │   └── twig.md
+│   │       │   ├── xss
+│   │       │   │   ├── README.md
+│   │       │   │   ├── dom-based.md
+│   │       │   │   ├── exploitation.md
+│   │       │   │   ├── payloads.md
+│   │       │   │   ├── reflected.md
+│   │       │   │   ├── stored.md
+│   │       │   │   └── xss-101.md
+│   │       │   └── xxei
+│   │       │       ├── README.md
+│   │       │       ├── xml-101.md
+│   │       │       └── xxei.md
+│   │       ├── mass-assignment.md
+│   │       ├── open-redirects.md
+│   │       ├── openfire.md
+│   │       ├── race-conditions.md
+│   │       ├── ssrf
+│   │       │   ├── README.md
+│   │       │   ├── examples.md
+│   │       │   └── exploitation.md
+│   │       ├── wafs.md
+│   │       ├── web-servers
+│   │       │   ├── README.md
+│   │       │   ├── apache.md
+│   │       │   ├── iis.md
+│   │       │   ├── nginx.md
+│   │       │   ├── tomcat.md
+│   │       │   └── xampp.md
+│   │       ├── web-tools
+│   │       │   ├── README.md
+│   │       │   ├── amass.md
+│   │       │   ├── burpsuite.md
+│   │       │   ├── curl.md
+│   │       │   ├── gowitness.md
+│   │       │   ├── hakrawler.md
+│   │       │   └── whatweb.md
+│   │       ├── webdav.md
+│   │       └── websockets.md
+│   ├── methodologies
+│   │   ├── crtp.md
+│   │   └── oscp
+│   │       ├── README.md
+│   │       ├── ad-set.md
+│   │       ├── linux.md
+│   │       └── windows.md
+│   ├── my-portfolio-and-projects
+│   │   ├── cybersecurity
+│   │   │   ├── README.md
+│   │   │   ├── ctf-write-ups.md
+│   │   │   └── penetration-testing.md
+│   │   ├── devops-and-infrastructure
+│   │   │   ├── README.md
+│   │   │   ├── ci-cd-pipeline-configuration.md
+│   │   │   ├── container-management-docker-k8s.md
+│   │   │   └── vps-manager.md
+│   │   └── education-and-certifications
+│   │       ├── README.md
+│   │       ├── professional-certifications.md
+│   │       └── study-abroad-and-english.md
+│   ├── networking
+│   │   ├── README.md
+│   │   └── ip-addressing.md
+│   ├── other
+│   │   └── exploits
+│   │       └── screen.md
+│   ├── package-managers
+│   │   ├── README.md
+│   │   ├── uv.md
+│   │   └── vevn.md
+│   ├── pivoting
+│   │   ├── README.md
+│   │   ├── deep-packet-inspection
+│   │   │   ├── README.md
+│   │   │   ├── dns-tunneling.md
+│   │   │   └── http-tunneling.md
+│   │   ├── networking-101.md
+│   │   ├── pivoting-tools
+│   │   │   ├── README.md
+│   │   │   ├── ligolo-ng.md
+│   │   │   └── sshuttle.md
+│   │   ├── port-foward.md
+│   │   └── ssh-tunelling.md
+│   ├── portfolio
+│   │   └── devops
+│   │       └── vps-manager.md
+│   ├── red-teaming
+│   │   ├── README.md
+│   │   ├── c2s
+│   │   │   ├── README.md
+│   │   │   ├── c2-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── adcollector.md
+│   │   │   │   ├── adsearch.md
+│   │   │   │   ├── cimplant.md
+│   │   │   │   ├── dsquery.md
+│   │   │   │   ├── lacheck.md
+│   │   │   │   ├── pezor.md
+│   │   │   │   ├── scshell.md
+│   │   │   │   ├── seatbelt.md
+│   │   │   │   ├── sharpkatz.md
+│   │   │   │   ├── sharpup.md
+│   │   │   │   ├── standin.md
+│   │   │   │   └── stracciatella.md
+│   │   │   └── sliver.md
+│   │   ├── edrs
+│   │   │   ├── README.md
+│   │   │   └── mde.md
+│   │   ├── opsec.md
+│   │   ├── powershell.md
+│   │   └── psremoting.md
+│   ├── services
+│   │   ├── distcc-3632.md
+│   │   ├── dns-53.md
+│   │   ├── ldap-389-636.md
+│   │   ├── remote-access
+│   │   │   └── README.md
+│   │   ├── shares
+│   │   │   ├── README.md
+│   │   │   ├── ftp-21.md
+│   │   │   ├── nfs-111-2049.md
+│   │   │   └── smb-139-445.md
+│   │   ├── tcp
+│   │   │   ├── 113-ident.md
+│   │   │   ├── 2181-zookeeper.md
+│   │   │   ├── 79-finger.md
+│   │   │   ├── README.md
+│   │   │   ├── dbms
+│   │   │   │   ├── README.md
+│   │   │   │   ├── nosql
+│   │   │   │   │   ├── 27017-mongodb.md
+│   │   │   │   │   ├── 3000-3005-aerospike.md
+│   │   │   │   │   ├── 6379-redis.md
+│   │   │   │   │   └── README.md
+│   │   │   │   └── sql
+│   │   │   │       ├── 1433-mssql.md
+│   │   │   │       ├── 1521-oracle.md
+│   │   │   │       ├── 3306-mysql-mariadb.md
+│   │   │   │       ├── 5432-postgresql.md
+│   │   │   │       ├── 9092-h2.md
+│   │   │   │       └── README.md
+│   │   │   ├── distcc-3632.md
+│   │   │   ├── dns-53.md
+│   │   │   ├── freeswitch-8021.md
+│   │   │   ├── ldap-389-636.md
+│   │   │   ├── mail
+│   │   │   │   ├── README.md
+│   │   │   │   ├── imap-143-993.md
+│   │   │   │   ├── pop3-110-995.md
+│   │   │   │   └── smtp-25-587.md
+│   │   │   ├── mobile-mouse-9099.md
+│   │   │   ├── remote-access
+│   │   │   │   ├── 135-dcom.md
+│   │   │   │   ├── 135-wmi.md
+│   │   │   │   ├── 22-ssh.md
+│   │   │   │   ├── 3389-rdp.md
+│   │   │   │   ├── 5900-vnc.md
+│   │   │   │   ├── 5985-5986-winrm.md
+│   │   │   │   └── README.md
+│   │   │   ├── shares
+│   │   │   │   ├── README.md
+│   │   │   │   ├── ftp-21.md
+│   │   │   │   ├── nfs-111-2049.md
+│   │   │   │   └── smb-139-445.md
+│   │   │   ├── usermin-20000.md
+│   │   │   ├── webmin-10000.md
+│   │   │   └── wifi-mouse-1978.md
+│   │   └── udp
+│   │       ├── 500-ike.md
+│   │       ├── README.md
+│   │       └── snmp-161.md
+│   ├── social-engineering
+│   │   ├── README.md
+│   │   └── phising.md
+│   ├── tl-dr
+│   │   ├── active-directory
+│   │   │   ├── README.md
+│   │   │   ├── ad-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── bloodhound.md
+│   │   │   │   ├── bloodyad.md
+│   │   │   │   ├── impacket.md
+│   │   │   │   ├── kerbrute.md
+│   │   │   │   ├── ldapsearch.md
+│   │   │   │   ├── mimikatz.md
+│   │   │   │   ├── netexec.md
+│   │   │   │   ├── powerview.md
+│   │   │   │   ├── responder.md
+│   │   │   │   ├── rsat.md
+│   │   │   │   ├── rubeus.md
+│   │   │   │   ├── runas.md
+│   │   │   │   └── sysinternals.md
+│   │   │   ├── attacks
+│   │   │   │   ├── README.md
+│   │   │   │   ├── adcs
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── certifried.md
+│   │   │   │   │   ├── esc-vectors.md
+│   │   │   │   │   ├── pass-the-cert.md
+│   │   │   │   │   └── shadow-credentials.md
+│   │   │   │   ├── as-reproasting.md
+│   │   │   │   ├── badsuccessor.md
+│   │   │   │   ├── cross-domain.md
+│   │   │   │   ├── cross-forest.md
+│   │   │   │   ├── dcsync.md
+│   │   │   │   ├── delegations
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── constrained.md
+│   │   │   │   │   ├── rbcd.md
+│   │   │   │   │   ├── u2u.md
+│   │   │   │   │   └── unconstrained.md
+│   │   │   │   ├── forests.md
+│   │   │   │   ├── gpo-abuse.md
+│   │   │   │   ├── kerberoasting.md
+│   │   │   │   ├── local-sam-dump.md
+│   │   │   │   ├── logon-scripts.md
+│   │   │   │   ├── nopac.md
+│   │   │   │   ├── ntlm-relay.md
+│   │   │   │   ├── password-spraying.md
+│   │   │   │   ├── pre-created-machines.md
+│   │   │   │   ├── sccm.md
+│   │   │   │   ├── spn-jacking.md
+│   │   │   │   ├── timeroasting.md
+│   │   │   │   └── user-enumeration.md
+│   │   │   ├── general
+│   │   │   │   ├── README.md
+│   │   │   │   ├── access-controls.md
+│   │   │   │   ├── ad-101.md
+│   │   │   │   ├── authentication
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── ad-cs.md
+│   │   │   │   │   ├── kerberos.md
+│   │   │   │   │   └── ntlm.md
+│   │   │   │   └── gpos.md
+│   │   │   ├── groups
+│   │   │   │   ├── README.md
+│   │   │   │   ├── account-operators.md
+│   │   │   │   ├── backup-operators.md
+│   │   │   │   ├── cert-publishers.md
+│   │   │   │   ├── dnsadmins.md
+│   │   │   │   ├── exchange-windows-permissions.md
+│   │   │   │   ├── restore-users.md
+│   │   │   │   └── server-operators.md
+│   │   │   ├── lateral-movement
+│   │   │   │   ├── README.md
+│   │   │   │   ├── dcom.md
+│   │   │   │   ├── overpass-the-hash.md
+│   │   │   │   ├── pass-the-hash.md
+│   │   │   │   ├── pass-the-ticket.md
+│   │   │   │   └── wsus.md
+│   │   │   ├── permissions
+│   │   │   │   ├── README.md
+│   │   │   │   ├── addself.md
+│   │   │   │   ├── allextendedrights.md
+│   │   │   │   ├── dcsync.md
+│   │   │   │   ├── forcechangepassword.md
+│   │   │   │   ├── fullcontrol.md
+│   │   │   │   ├── genericall.md
+│   │   │   │   ├── genericwrite.md
+│   │   │   │   ├── owns.md
+│   │   │   │   ├── readgmsapassword.md
+│   │   │   │   ├── readlapspassword.md
+│   │   │   │   ├── writedacl.md
+│   │   │   │   ├── writeowner.md
+│   │   │   │   └── writespn.md
+│   │   │   ├── persistence
+│   │   │   │   ├── README.md
+│   │   │   │   ├── acls.md
+│   │   │   │   ├── diamond-ticket.md
+│   │   │   │   ├── dsrm.md
+│   │   │   │   ├── golden-ticket.md
+│   │   │   │   ├── security-descriptors.md
+│   │   │   │   ├── shadow-copies.md
+│   │   │   │   ├── silver-ticket.md
+│   │   │   │   ├── skeleton-key.md
+│   │   │   │   └── ssp-injection.md
+│   │   │   └── privileges
+│   │   │       ├── README.md
+│   │   │       ├── general-notes.md
+│   │   │       ├── sebackup.md
+│   │   │       ├── seenabledelegation.md
+│   │   │       ├── seimpersonate.md
+│   │   │       ├── semanagevolume.md
+│   │   │       └── seservicelogon.md
+│   │   ├── cloud
+│   │   │   ├── README.md
+│   │   │   ├── aws
+│   │   │   │   ├── README.md
+│   │   │   │   └── recon.md
+│   │   │   ├── cloud-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── aws.md
+│   │   │   │   └── pacu.md
+│   │   │   └── general.md
+│   │   ├── external-platforms
+│   │   │   ├── README.md
+│   │   │   └── slack.md
+│   │   ├── infra
+│   │   │   ├── README.md
+│   │   │   ├── apps-x-platform
+│   │   │   │   ├── README.md
+│   │   │   │   ├── ansible.md
+│   │   │   │   └── glassfish.md
+│   │   │   ├── file-artifacts
+│   │   │   │   ├── README.md
+│   │   │   │   └── mozilla.md
+│   │   │   ├── infra-tools
+│   │   │   │   ├── README.md
+│   │   │   │   ├── pe-scripts.md
+│   │   │   │   ├── powerup.md
+│   │   │   │   └── pspy.md
+│   │   │   ├── os
+│   │   │   │   ├── README.md
+│   │   │   │   ├── freebsd.md
+│   │   │   │   ├── linux
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── host-recon.md
+│   │   │   │   │   ├── privilege-escalation
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── apps
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── clamav.md
+│   │   │   │   │   │   │   ├── composer.md
+│   │   │   │   │   │   │   ├── runc.md
+│   │   │   │   │   │   │   ├── sudo.md
+│   │   │   │   │   │   │   └── zabbix.md
+│   │   │   │   │   │   ├── binaries
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── docker.md
+│   │   │   │   │   │   │   ├── dosbox.md
+│   │   │   │   │   │   │   ├── ed.md
+│   │   │   │   │   │   │   ├── gcore.md
+│   │   │   │   │   │   │   ├── hping3.md
+│   │   │   │   │   │   │   ├── make.md
+│   │   │   │   │   │   │   └── systemctl.md
+│   │   │   │   │   │   ├── cronjobs
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── git-script-injection.md
+│   │   │   │   │   │   │   ├── path-abuse.md
+│   │   │   │   │   │   │   └── so-injection.md
+│   │   │   │   │   │   ├── groups.md
+│   │   │   │   │   │   ├── kernel.md
+│   │   │   │   │   │   └── suid-so-injection.md
+│   │   │   │   │   └── services
+│   │   │   │   │       ├── README.md
+│   │   │   │   │       ├── rpc.py.md
+│   │   │   │   │       └── service-hijacking.md
+│   │   │   │   └── windows
+│   │   │   │       ├── README.md
+│   │   │   │       ├── commands.md
+│   │   │   │       ├── host-recon.md
+│   │   │   │       └── privilege-escalation
+│   │   │   │           ├── README.md
+│   │   │   │           ├── apps
+│   │   │   │           │   ├── README.md
+│   │   │   │           │   ├── alwaysinstalledelevated.md
+│   │   │   │           │   ├── argus-surveillance-dvr.md
+│   │   │   │           │   ├── druva.md
+│   │   │   │           │   ├── hp-power-manager.md
+│   │   │   │           │   ├── paperstream-ip.md
+│   │   │   │           │   └── smartermail.md
+│   │   │   │           ├── hijacks.md
+│   │   │   │           ├── kernel.md
+│   │   │   │           ├── local-network-service.md
+│   │   │   │           └── services.md
+│   │   │   └── proxies
+│   │   │       ├── README.md
+│   │   │       └── squid.md
+│   │   └── web
+│   │       ├── common-findings
+│   │       │   └── security-headers
+│   │       │       └── content-security-policy.md
+│   │       └── frameworks
+│   │           └── vaadin.md
+│   ├── tools
+│   │   ├── creds.md
+│   │   ├── crypto.md
+│   │   ├── file-transfers.md
+│   │   ├── files.md
+│   │   ├── hydra.md
+│   │   ├── images.md
+│   │   ├── keepass.md
+│   │   ├── metasploit
+│   │   │   ├── 101.md
+│   │   │   ├── README.md
+│   │   │   ├── payloads.md
+│   │   │   ├── post-exploitation.md
+│   │   │   └── resource-scripts.md
+│   │   ├── misc.md
+│   │   ├── package-managers
+│   │   │   ├── README.md
+│   │   │   ├── uv.md
+│   │   │   └── vevn.md
+│   │   ├── passwords
+│   │   │   ├── README.md
+│   │   │   ├── credential-enum.md
+│   │   │   ├── domainpasswordspray.md
+│   │   │   ├── hashcat.md
+│   │   │   ├── hashid.md
+│   │   │   └── john.md
+│   │   ├── port-scanners.md
+│   │   ├── reverse-shells.md
+│   │   ├── searchsploit.md
+│   │   ├── shells
+│   │   │   └── reverse-shells.md
+│   │   ├── text
+│   │   │   └── README.md
+│   │   ├── text.md
+│   │   ├── traffic-capture.md
+│   │   ├── vulnerability-scanners.md
+│   │   └── wordlists.md
+│   └── web
+│       ├── README.md
+│       ├── api
+│       │   ├── README.md
+│       │   ├── collection-creation.md
+│       │   ├── enumeration.md
+│       │   ├── tests
+│       │   │   ├── README.md
+│       │   │   ├── authentication
+│       │   │   │   ├── README.md
+│       │   │   │   ├── bfas.md
+│       │   │   │   ├── jwts
+│       │   │   │   │   ├── README.md
+│       │   │   │   │   ├── algorithm-confusion.md
+│       │   │   │   │   ├── entropy-analysis.md
+│       │   │   │   │   ├── header-injection.md
+│       │   │   │   │   ├── signature-validation.md
+│       │   │   │   │   └── weak-signature.md
+│       │   │   │   └── tokens.md
+│       │   │   ├── authorization
+│       │   │   │   ├── README.md
+│       │   │   │   ├── bfla.md
+│       │   │   │   └── bola.md
+│       │   │   ├── content-type-tampering.md
+│       │   │   ├── excessive-data-exposure.md
+│       │   │   ├── general.md
+│       │   │   ├── http-verb-tampering.md
+│       │   │   ├── improper-asset-management.md
+│       │   │   ├── mass-assignment.md
+│       │   │   ├── security-headers.md
+│       │   │   ├── security-misconfigurations.md
+│       │   │   ├── ssrf.md
+│       │   │   ├── unrestriced-resource-consumption.md
+│       │   │   ├── unrestricted-access-to-sensitive-business-flows.md
+│       │   │   └── unsafe-api-consumption.md
+│       │   ├── tools
+│       │   │   ├── README.md
+│       │   │   ├── arjun.md
+│       │   │   ├── jwt_tool.md
+│       │   │   ├── kiterunner.md
+│       │   │   └── mitmweb.md
+│       │   ├── useful-terms.md
+│       │   └── what-is-an-api.md
+│       ├── applications
+│       │   ├── README.md
+│       │   ├── atlassian-confluence.md
+│       │   ├── boxbilling.md
+│       │   ├── cassandra-web.md
+│       │   ├── gerapy.md
+│       │   ├── grafana.md
+│       │   ├── limesurvey.md
+│       │   ├── mantis-bt.md
+│       │   ├── omrs.md
+│       │   ├── online-discussion-forum.md
+│       │   ├── openemr.md
+│       │   ├── prison-management-system.md
+│       │   ├── raspap.md
+│       │   ├── rconfig.md
+│       │   ├── responsive-filemanager.md
+│       │   ├── simplephpgal.md
+│       │   ├── so-planning.md
+│       │   ├── sonatype-nexus.md
+│       │   ├── synaman.md
+│       │   ├── teamcity.md
+│       │   ├── tiny-file-manager.md
+│       │   ├── vesta-control-panel.md
+│       │   └── zoneminder.md
+│       ├── authentication
+│       │   ├── README.md
+│       │   ├── broken-reset-logic.md
+│       │   ├── brute-force-attacks.md
+│       │   ├── jwts.md
+│       │   ├── mfa.md
+│       │   ├── php-strcmp.md
+│       │   ├── rate-limiting.md
+│       │   └── session-tokens.md
+│       ├── authorization
+│       │   ├── README.md
+│       │   ├── automated-a-b-testing.md
+│       │   ├── idor-bfla.md
+│       │   ├── idor-bola.md
+│       │   └── weak-access-controls.md
+│       ├── cms
+│       │   ├── README.md
+│       │   ├── barracudadrive-fuguhub.md
+│       │   ├── cs-cart.md
+│       │   ├── cutenews.md
+│       │   ├── dnn.md
+│       │   ├── extplorer.md
+│       │   ├── grav.md
+│       │   ├── joomla.md
+│       │   ├── monstra.md
+│       │   ├── responsive-online-blog.md
+│       │   ├── ritecms.md
+│       │   ├── subrion.md
+│       │   └── umbraco.md
+│       ├── common-findings
+│       │   ├── README.md
+│       │   ├── cookie-flags.md
+│       │   ├── security-headers.md
+│       │   └── ssl-tls.md
+│       ├── cross-origin
+│       │   ├── README.md
+│       │   ├── cors.md
+│       │   ├── cross-origin-101.md
+│       │   └── csrf.md
+│       ├── devops
+│       │   ├── README.md
+│       │   ├── apm-tools
+│       │   │   ├── README.md
+│       │   │   └── php-spx.md
+│       │   ├── git-tools.md
+│       │   ├── gitea.md
+│       │   ├── gitlab.md
+│       │   └── jenkins.md
+│       ├── dirbusting.md
+│       ├── file-inclusion
+│       │   ├── README.md
+│       │   └── lfi-and-rfi.md
+│       ├── file-uploads
+│       │   ├── README.md
+│       │   ├── attacks.md
+│       │   ├── file-types
+│       │   │   ├── README.md
+│       │   │   ├── libreoffice.md
+│       │   │   ├── pdf.md
+│       │   │   └── svg.md
+│       │   └── filters.md
+│       ├── frameworks
+│       │   ├── README.md
+│       │   ├── laravel.md
+│       │   └── spring.md
+│       ├── injections
+│       │   ├── README.md
+│       │   ├── ci
+│       │   │   ├── README.md
+│       │   │   ├── ci.md
+│       │   │   ├── examples.md
+│       │   │   ├── filters.md
+│       │   │   └── happy-dom.md
+│       │   ├── sqli
+│       │   │   ├── README.md
+│       │   │   ├── blind.md
+│       │   │   ├── in-band.md
+│       │   │   ├── nosqli.md
+│       │   │   ├── other.md
+│       │   │   ├── second-order.md
+│       │   │   ├── sqli-101.md
+│       │   │   └── sqlmap.md
+│       │   ├── ssti
+│       │   │   ├── README.md
+│       │   │   ├── case-study-craft-cms.md
+│       │   │   ├── freemarker.md
+│       │   │   ├── handlebars.md
+│       │   │   ├── jinja.md
+│       │   │   ├── mako.md
+│       │   │   ├── mustache.md
+│       │   │   ├── pug.md
+│       │   │   ├── ssti-101.md
+│       │   │   └── twig.md
+│       │   ├── xss
+│       │   │   ├── README.md
+│       │   │   ├── dom-based.md
+│       │   │   ├── exploitation.md
+│       │   │   ├── payloads.md
+│       │   │   ├── reflected.md
+│       │   │   ├── stored.md
+│       │   │   └── xss-101.md
+│       │   └── xxei
+│       │       ├── README.md
+│       │       └── xml-101.md
+│       ├── mass-assignment.md
+│       ├── open-redirects.md
+│       ├── openfire.md
+│       ├── race-conditions.md
+│       ├── ssrf
+│       │   ├── README.md
+│       │   ├── examples.md
+│       │   └── exploitation.md
+│       ├── wafs.md
+│       ├── web-servers
+│       │   ├── README.md
+│       │   ├── apache.md
+│       │   ├── iis.md
+│       │   ├── nginx.md
+│       │   ├── tomcat.md
+│       │   └── xampp.md
+│       ├── web-tools
+│       │   ├── README.md
+│       │   ├── amass.md
+│       │   ├── burpsuite.md
+│       │   ├── curl.md
+│       │   ├── gowitness.md
+│       │   ├── hakrawler.md
+│       │   └── whatweb.md
+│       ├── webdav.md
+│       └── websockets.md
+├── README.md
+├── docs
+│   ├── README.md
+│   └── SUMMARY.md
+├── gitbook-docs.yaml
+├── structure.txt
+├── sysreptor
+│   ├── INSTALL.md
+│   ├── LICENSE
+│   ├── deploy
+│   │   ├── app.env
+│   │   ├── app.env.example
+│   │   ├── caddy
+│   │   │   ├── Caddyfile
+│   │   │   ├── docker-compose.yml
+│   │   │   └── setup.sh
+│   │   ├── docker-compose.yml
+│   │   ├── languagetool
+│   │   │   └── docker-compose.yml
+│   │   ├── nginx
+│   │   │   └── sysreptor.nginx
+│   │   └── sysreptor
+│   │       └── docker-compose.yml
+│   ├── post_update.sh
+│   ├── update.sh
+│   └── upgrade_postgres.sh
+└── sysreptor.tar.gz
+
+199 directories, 960 files
